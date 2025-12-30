@@ -1,11 +1,5 @@
 # Hierarchical Vector Quantized Variational Autoencoder (VQ-VAE)
 
-**Status**: Active Research  
-**Author**: Antigravity (Assistant) for User  
-**Topic**: Generative Models, Representation Learning
-
----
-
 ## 1. Abstract
 
 This repository contains a PyTorch implementation of a **Vector Quantized Variational Autoencoder (VQ-VAE)**, a powerful generative model that combines the strengths of autoencoders with the ability to learn discrete latent representations. Unlike traditional Variational Autoencoders (VAEs), which suffer from "posterior collapse" and blurry reconstructions due to continuous Gaussian priors, VQ-VAE learns a discrete codebook of latent embeddings. This allows for high-fidelity image reconstruction and subsequent high-quality generation when paired with an autoregressive prior (e.g., PixelCNN or Transformer) over the discrete latents.
